@@ -1,0 +1,19 @@
+
+.container {
+
+}
+
+.name {
+    @media (max-width: 768px) {
+       margin-left: 10px; /* Agrega un pequeño margen inferior */
+    }
+}
+
+.date {
+    @media (max-width: 768px) {
+        display: block; /* Cambia a bloque para ocupar toda la anchura disponible */
+    }
+    background-color: rgb(179, 52, 52);
+    padding: 4px;
+    border-radius: 50px;
+}
